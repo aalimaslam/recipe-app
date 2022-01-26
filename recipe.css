@@ -1,0 +1,49 @@
+.recipe-main{
+    padding:20px;
+}
+body{
+    font-family: sans-serif;
+}
+.description{
+    line-height: 140%;
+}
+::selection{
+    background:#123109;
+    color:white;
+}
+@media only screen and (max-width: 1280px ){
+    .recipe-main{
+        flex-wrap: wrap;
+    }
+}
+.heading{
+    font-size:2rem;
+    list-style: none;
+}
+.logo{
+    font-family: monoton,cursive,sans-serif;
+    font-size:2rem;
+    text-align: center;
+    padding:20px;
+    background:#123109;
+    color:white;
+    box-shadow:5px 25px 50px #999;
+    border-radius:10px;
+    cursor: pointer;
+}
+header{
+    padding:20px;
+}
+ul li{
+    padding:5px;
+}
+small{
+    font-size:1.3rem
+}
+.title{
+    font-weight: 800;
+    color:#123109;
+}
+li::marker{
+    color:#29910c;
+}

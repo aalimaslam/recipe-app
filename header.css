@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --primary:#123109;
+    --secondary:whitesmoke;
+}
+body{
+    background:var(--secondary);
+    padding:20px;
+    font-family: sans-serif;
+}
+header
+{
+    background:var(--primary);
+    color:white;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 12.5px 25px 50px #999;
+}
+.flex{
+    display: flex;
+}
+.j-center{
+    justify-content: center;
+}
+.a-center{
+    align-items: center;
+}
+.j-between{
+    justify-content: space-between;
+}
+.p-10{
+    padding:10px;
+}
+.p-20{
+    padding:20px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+header ul li:first-child{
+    font-family: monoton,cursive,sans-serif;
+}
+header ul{
+    flex-wrap: wrap;
+}
+.place-center{
+    display: flex;
+    align-items: center;
+}
+form{
+    padding:10px 30px;
+    border-radius: 1000px;
+    border:none;
+    outline:none;
+    background: white;
+}
+form i{
+    color:var(--primary);
+    cursor: pointer;
+}
+input{
+    border:none;
+    outline:none;
+}
+header li{
+    list-style: none;
+}
+
+button{
+    outline:none;
+    border:none;
+    background:transparent;
+}
+.border{
+    border:1px solid #ddd;
+}
+.m-10{
+    margin:10px;
+}
+.mx-10{
+    margin:0px 10px;
+}
+.my-10{
+    margin:10px 0px;
+}
+.logo{
+    cursor: pointer;
+    font-size:2rem
+}
+/*Header ends here*/

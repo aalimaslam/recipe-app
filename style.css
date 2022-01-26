@@ -1,0 +1,42 @@
+
+.cta{
+    padding:10px 30px;
+    background:var(--primary);
+    color:white;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    width:100%;
+}
+.card{
+    cursor: pointer;
+}
+main{
+    margin-top:20px;
+}
+.card img{ 
+    width:200px;    
+}
+.title{
+    font-weight: 900;
+    font-size:2rem;
+}
+.description{
+    opacity: 0.8;
+}
+
+@media only screen and (max-width:500px ){
+    header .search{
+        width:100%;
+    }
+    header ul li:first-child{
+        width:100%;
+        padding:20px;
+        text-align: center;
+        letter-spacing: 4px;
+    }
+    header ul{
+        justify-content: center !important;
+    }
+
+}
