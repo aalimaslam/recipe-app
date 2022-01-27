@@ -47,3 +47,8 @@ small{
 li::marker{
     color:#29910c;
 }
+img{
+    width:50vw;
+    border-radius: 10px;
+    box-shadow: 5px 25px 50px #999;
+}
