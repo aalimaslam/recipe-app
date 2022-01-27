@@ -10,6 +10,10 @@
     $area =  $_POST["area"];
     $category =  $_POST["category"];
     $imageUrl =  $_POST["imageUrl"];
+    $cardID =  $_POST["cardCount"];
+    if(!$splittedString){
+        $splittedString = explode(".",$description);
+    }
     $ingredients =  $_POST["ingredients"];
     $splittedIngredients = explode(",", $ingredients);
 ?>
@@ -40,7 +44,7 @@
         </ul>
         <p class="description p-10">
             <?php for ($i=0; $i < sizeof($splittedString); $i++) { 
-                echo "$splittedString[$i] <br>";
+                echo "$splittedString[$i] <br><br>";
             } ?>
         </p>
     </div>
